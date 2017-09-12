@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+		<script src="bootstrap/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			width: 100%;
+			height: 2rem;
+			position: relative;
+			overflow: hidden;
+		}
+		div ul{
+			width: 12rem;
+			height: 2rem;
+			display: flex;
+			position: absolute;
+			animation: name 2s linear infinite;
+		}
+		div ul li{
+			width: 2rem;
+			height: 2rem;
+			list-style: none;
+		}
+		div ul li img{
+			width: 100%;
+			height: 100%;
+		}
+		@keyframes name{
+			/*0%{
+				left: 0;
+			}
+			100%{
+				left: -6rem;
+			}*/
+			0%{
+					transform: rotate(0deg);
+			}
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+	</style>
+	<body>
+		<div>
+			<ul class="main-bottom">
+				<li>
+					<img src="img/图层12@2x.png" />
+				</li>
+				<li>
+					<img src="img/图层13@2x.png" />
+				</li>
+				<li>
+					<img src="img/图层14@2x.png" />
+				</li>
+				<li>
+					<img src="img/图层12@2x.png" />
+				</li>
+				<li>
+					<img src="img/图层13@2x.png" />
+				</li>
+				<li>
+					<img src="img/图层14@2x.png" />
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
